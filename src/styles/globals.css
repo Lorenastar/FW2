@@ -1,5 +1,9 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
-.degrademenu {
-    background: linear-gradient(90deg, rgba(8, 0, 138, 1) 0%, rgba(16, 56, 130, 1) 44%, rgba(0, 111, 134, 1) 74%);
+body{
+background: linear-gradient(180deg, rgba(169,197,247,1) 0%, rgba(62,121,232,1) 78%, rgba(0,0,0,1) 100%);
+  min-height: 100vh;
+}
+.conteudo {
+  height: auto !important;
 }
