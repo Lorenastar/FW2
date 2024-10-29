@@ -14,9 +14,13 @@ export default function Promessa() {
     return <>
         <Menu />
         <Container>
-            Promessas {(divida==="" ? "<carregando>" : divida)}
+            Promessas {(divida==="" ? <img src="loading.gif" whidth={40} height={60}/> : divida)}
         </Container>
         <Footer />
     </>
 }
-function saoLonguiho()
+function saoLonguiho(texto){
+    setTimeout(()=>{
+        return (texto)
+    },2000)
+}
